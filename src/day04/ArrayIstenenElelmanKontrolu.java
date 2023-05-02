@@ -23,7 +23,7 @@ public class ArrayIstenenElelmanKontrolu {
             }
 
         }
-        System.out.println("İstenen eleman :" +sayac+" kadar vardır");
+        System.out.println("İstenen eleman :" +sayac+" tane vardır");
 
 
     }
