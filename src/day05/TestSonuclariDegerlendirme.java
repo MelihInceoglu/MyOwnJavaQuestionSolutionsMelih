@@ -1,4 +1,4 @@
-package Day05;
+package day05;
 
 public class TestSonuclariDegerlendirme {
 
