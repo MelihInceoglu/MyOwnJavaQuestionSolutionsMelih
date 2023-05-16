@@ -28,16 +28,28 @@ public class TryCatch {
         while (sayiIste){
 
             System.out.println("Toplanmak uzere tamsayi giriniz\nBitirmek icin Q'ya basiniz");
+
             try { // normal giris icin calisacak kodlar
+
                 sayi = scanner.nextInt();
+
                 toplam += sayi;
+
                 sayac++;
+
             } catch (InputMismatchException e) { // exception durumunda calisacak kodlar
+
+
                 tercih = scanner.next();
+
                 // kullanici yanlis giris yaptiginda veya q'ya bastiginda burasi calisacak
+
                 if (tercih.equalsIgnoreCase("q")){
+
                     break;
+
                 }else{
+
                     System.out.println("Toplanmak icin TAMSAYI yazmalisiniz");
                 }
             }

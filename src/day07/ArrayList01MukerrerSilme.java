@@ -3,7 +3,7 @@ package day07;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArrayList01 {
+public class ArrayList01MukerrerSilme {
 
 //Soru 1- Verilen bir array’de tekrar eden elementler icin, mukerrer olanlari silip,
 // tum elemanlardan	sadece 1 tane yapip bize dondurecek bir method olusturun.

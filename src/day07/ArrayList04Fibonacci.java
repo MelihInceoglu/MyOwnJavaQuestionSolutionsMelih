@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class ArrayList04 {
+public class ArrayList04Fibonacci {
 
     //Soru 4- Verilen pozitif bir n tamsayisini alarak,
     // bize ilk n tane tane Fibonacci sayisini bir list olarak donduren bir method olusturun.

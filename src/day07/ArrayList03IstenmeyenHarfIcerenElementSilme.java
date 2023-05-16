@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ArrayList03 {
+public class ArrayList03IstenmeyenHarfIcerenElementSilme {
 
     //Soru 3- Verilen String bir listede istenmeyen harf iceren elementleri silip,
     // kalan kismini list olarak bize donduren bir method olusturun

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class ArrayList02 {
+public class ArrayList02QyaBasDur {
 
     //Soru 2- Kullanicidan istedigi kadar isim alip,
     // Q’ya bastiginda girdigi isimleri bize liste olarak dondurecek bir method olusturun.

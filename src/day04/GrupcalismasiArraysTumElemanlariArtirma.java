@@ -2,7 +2,7 @@ package day04;
 
 import java.util.Arrays;
 
-public class GrupcalismasiArrays {
+public class GrupcalismasiArraysTumElemanlariArtirma {
 
 
     //Soru 1- Verilen bir int array’in tum elemanlarini 2 artirip bize donduren bir method
@@ -17,10 +17,6 @@ public class GrupcalismasiArrays {
         elemeanArtirma(arr);
 
         System.out.println(Arrays.toString(arr));
-
-
-
-
 
 
     }

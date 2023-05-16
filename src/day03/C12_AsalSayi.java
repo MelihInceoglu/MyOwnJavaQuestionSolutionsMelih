@@ -10,13 +10,6 @@ public class C12_AsalSayi {
         asalMiBak(20);
 
 
-
-
-
-
-
-
-
     }
 
     public static void asalMiBak(int sayi){
