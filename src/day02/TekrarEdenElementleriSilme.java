@@ -11,6 +11,8 @@ public class TekrarEdenElementleriSilme {
 
     // Verilen bir array'deki elementleri yazdiralim
     // Ancak tekrar eden elementler varsa sadece 1 kere yazdirin
+        // print the elements in a given array
+        // But only print once if there are repeating elements
 
 
     List<Integer> tekrarsizYazdirma=new ArrayList<>(); //boş bir arry list hazırladık

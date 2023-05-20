@@ -4,22 +4,28 @@ public class ForEachLoop {
 
     public static void main(String[] args) {
 
-         /*
-        bir array icindeki sayilardan 5 ten buyuk olanlari toplayalim
-         */
+        int[]arr={2,5,3,9,4};
 
-        int[] arr = {5, 7, 6, 4, 2, 4};
+        for (int i = 0; i <arr.length ; i++) {
 
-        int toplam=0;
-
-        for (int each:arr) {
-
-            if (each>5){
-                toplam+=each;
-            }
-
+            System.out.print(arr[i]+" ");       //2 5 3 9 4
         }
-        System.out.println(toplam);
+        System.out.println("\n----------------");
+
+        int[]arrIki={2,5,3,9,4};
+
+        for (int each:arrIki
+             ) {
+            System.out.print(each+" ");     //     2 5 3 9 4
+        }
+
+
+
+
+
+
+
+
 
     }
 }

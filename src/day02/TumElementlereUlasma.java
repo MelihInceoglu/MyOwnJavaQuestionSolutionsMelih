@@ -1,15 +1,13 @@
 package day02;
 
-import java.util.Arrays;
-
 public class TumElementlereUlasma {
 
     public static void main(String[] args) {
 
-        int[][] arr = {{1,5,9},{3,4},{2,8,1,2},{10}};
+        int[][] arr = {{1, 5, 9}, {3, 4}, {2, 8, 1, 2}, {10}};
 
-        for (int i = 0; i < arr.length ; i++) {
-            for (int j = 0; j <arr[i].length ; j++) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
 
                 System.out.print(arr[i][j] + " ");
 
@@ -17,14 +15,14 @@ public class TumElementlereUlasma {
 
         }
         System.out.println();
-        
+
         //Tum Elmentlerin Toplamını yazdirma
-        int toplam=0;
+        int toplam = 0;
 
-        for (int i = 0; i <arr.length ; i++) {
-            for (int j = 0; j <arr[i].length ; j++) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
 
-                toplam+=arr[i][j];
+                toplam += arr[i][j];
 
             }
 
@@ -33,16 +31,16 @@ public class TumElementlereUlasma {
         System.out.println(toplam);
 
         //MDA daki en büyük elementi yazdirin
-        
-        int enBuyukSayi=arr[0][0];
 
-        for (int i = 0; i <arr.length ; i++) { // outer arrye bakar
+        int enBuyukSayi = arr[0][0];
 
-            for (int j = 0; j <arr[i].length; j++) {  // inner arrayae bakar
-                
-                if (arr[i][j]>enBuyukSayi);
-                
-                enBuyukSayi=arr[i][j];
+        for (int i = 0; i < arr.length; i++) { // outer arrye bakar
+
+            for (int j = 0; j < arr[i].length; j++) {  // inner arrayae bakar
+
+                if (arr[i][j] > enBuyukSayi) ;
+
+                enBuyukSayi = arr[i][j];
             }
 
         }
@@ -53,14 +51,14 @@ public class TumElementlereUlasma {
 
         //MDA DAKİ ÇİFT SAYILARİ YAZDİRİN
 
-        int ciftSayiAdedi=0;
+        int ciftSayiAdedi = 0;
 
-        for (int i = 0; i <arr.length ; i++) {
-            for (int j = 0; j <arr[i].length ; j++) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
 
-                if (arr[i][j]%2==0){
+                if (arr[i][j] % 2 == 0) {
 
-                    System.out.print(arr[i][j]+" ");  //4 2 8 2 10
+                    System.out.print(arr[i][j] + " ");  //4 2 8 2 10
 
                     ciftSayiAdedi++;
 
@@ -71,9 +69,9 @@ public class TumElementlereUlasma {
         System.out.println("\nciftSayiAdedi = " + ciftSayiAdedi);
 
 
-        }
-
     }
+
+}
 
 
 

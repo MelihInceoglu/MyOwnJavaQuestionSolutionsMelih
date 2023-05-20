@@ -9,6 +9,9 @@ public class Dowhile3 {
         /*
          Girilen bir sayıya kadar olan sayılardan sadece tek olanlarını ekrana yazdırınız.
          girilen sayı dahil 20
+
+         Print only odd numbers up to a entered number on the screen.
+         20 including the number entered
         */
 
         Scanner scanner=new Scanner(System.in);// 15   1 3 5 15

@@ -8,7 +8,7 @@ public class Dowhile {
     public static void main(String[] args) {
 
         /*
-         *kullanicidan alınan sayinin basamak degerlerinin toplamini while loop ile yapin bir method create ediniz.
+         Make the sum of the digits of the number received from the user with a while loop, create a method.
          */
 
         Scanner scanner = new Scanner(System.in);

@@ -8,8 +8,8 @@ public class Dowhile2 {
     public static void main(String[] args) {
 
         /*
-    Kullanıcıda x girilene kadar ekrana "Program çalışıyor" yazan
-    ve x girildiğinde ise "Program bitti" yazan programı yazınız.
+    "Program is running" on the screen until x is entered in the user
+    and when x is entered, write the program that says "Program finished".
     */
 
 

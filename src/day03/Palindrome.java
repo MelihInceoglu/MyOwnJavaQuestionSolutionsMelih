@@ -7,6 +7,10 @@ public class Palindrome {
     // Verilen bir String'in Palindrome olup olmadigini yazdirin
     // Palindrome : duzden ve tersten ayni sekilde yazilan
     // madam, 12321, kabak
+
+    // Print whether a given String is Palindrome
+    // Palindrome : written the same way in straight and reverse
+    // madam, 12321, pumpkin
     public static void main(String[] args) {
 
 
@@ -16,7 +20,7 @@ public class Palindrome {
 
         String metin=scanner.nextLine();
 
-        String tersMetin=C10_metod.tersDondurme(metin);
+        String tersMetin= StringReverse.tersDondurme(metin);
 
         if (metin.equals(tersMetin)){
 

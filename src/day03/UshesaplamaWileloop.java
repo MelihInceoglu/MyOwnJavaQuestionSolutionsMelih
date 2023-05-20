@@ -14,6 +14,9 @@ public class UshesaplamaWileloop{
     // Soru 5- Kullanicidan bir sayi ve hesaplamak istedigi ussunu isteyin.
     // While loop kullanarak verilen sayinin istenen ussunu hesaplayip yazdiran bir method olusturun.
 
+    // Question 5- Ask the user for a number and the reason he wants to calculate.
+    // Create a method that calculates and prints the desired prime of the given number using the while loop.
+
 
 public static void usHesapla(){
 
@@ -23,9 +26,10 @@ public static void usHesapla(){
     System.out.println("Lütfen hesaplamak istedıgınız ussu giriniz");
     int us= scan.nextInt();
 
-    int carpimsonuc=1;
+    int carpimsonuc=0;
     while (us!=0){
-        carpimsonuc*=sayi;
+
+        carpimsonuc=sayi*sayi;
         us--;
     }
     System.out.println("çarpım sonucu : " +carpimsonuc);

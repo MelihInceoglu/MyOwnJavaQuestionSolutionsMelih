@@ -7,6 +7,8 @@ public class Varrags2 {
 
         // verilen degisken sayidaki tamsayidan
         // ilkinin karesini, digerlerinin toplamiyla carpan ve sonucu yazdiran bir method olusturun
+        // from the given variable number of integers
+        // create a method that multiplies the square of the first by the sum of the others and prints the result
 
 
         int sayi=0;
