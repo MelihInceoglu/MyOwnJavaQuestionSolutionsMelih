@@ -26,10 +26,13 @@ public static void usHesapla(){
     System.out.println("Lütfen hesaplamak istedıgınız ussu giriniz");
     int us= scan.nextInt();
 
-    int carpimsonuc=0;
+
+    int carpimsonuc=1;
+
+
     while (us!=0){
 
-        carpimsonuc=sayi*sayi;
+        carpimsonuc*=sayi;
         us--;
     }
     System.out.println("çarpım sonucu : " +carpimsonuc);
