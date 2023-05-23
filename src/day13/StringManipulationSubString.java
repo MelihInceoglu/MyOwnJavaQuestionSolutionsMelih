@@ -17,15 +17,16 @@ public class StringManipulationSubString {
      */
     public static void main(String[] args) {
 
-
         Scanner scan = new Scanner(System.in);
         System.out.println("bir kelime yazınız");
+
         String kelime = scan.next();
 
         if (kelime.length() >= 3) {
 
             System.out.println(kelime.substring((kelime.length() - 2)) +
-                    (kelime.substring(kelime.length() - 2)) + (kelime.substring(kelime.length() - 2)));
+                    (kelime.substring(kelime.length() - 2)) +
+                    (kelime.substring(kelime.length() - 2)));
 
         } else {
 

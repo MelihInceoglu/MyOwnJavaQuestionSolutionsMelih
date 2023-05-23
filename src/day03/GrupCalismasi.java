@@ -8,6 +8,9 @@ public class GrupCalismasi {
     public static void main(String[] args) {
 
         Scanner scanner=new Scanner(System.in);
+
+
+
         int girilenSayi= scanner.nextInt(); //1453
 
         int basamakSayisi=(""+girilenSayi).length();
