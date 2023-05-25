@@ -5,6 +5,15 @@ import java.util.Scanner;
 
 public class Runner {
 
+    public static final String W = "\u001B[37m";
+    public static final String R = "\u001B[31m";
+    public static final String G = "\u001B[32m";
+    public static final String Y = "\u001B[33m";
+    public static final String B = "\u001B[34m";
+
+    public static final String E ="\u001B[35m";
+
+
     static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -12,6 +21,15 @@ public class Runner {
     }
 
     private static void menu() {
+        System.out.println();
+        System.out.printf(G + "%50s", "*******************\n");
+        System.out.printf(B + "%50s", "********GEOMETRİK********\n");
+        System.out.printf(Y + "%50s", "*******ŞEKİLLER*******\n");
+        System.out.printf(R + "%50s", "********HESAPLAMA********\n");
+        System.out.printf("%51s", "*******************\n\n");
+
+        System.out.println();
+
         System.out.println("Hesaplamak istediginiz geometrik sekli seciniz :\n" +
                 "1. Dikdortgen\n" +
                 "2. Kare\n" +
