@@ -27,7 +27,6 @@ public class MenuRestaurantMap {
 
     }
 
-
     public static void menu() throws InterruptedException {
 
         Map<String, Double> menu = new HashMap<>();
@@ -52,7 +51,7 @@ public class MenuRestaurantMap {
             switch (secim) {
 
                 case "1":
-                    System.out.println(menu.get("Çorba")+"TL");
+                    System.out.println(menu.get("Çorba") + "TL");
 
                     System.out.println("Afiyet olsun Başka bir Arzunuz");
 
@@ -63,7 +62,7 @@ public class MenuRestaurantMap {
                     break;
                 case "2":
 
-                    System.out.println(menu.get("Izgara Tavuk")+"TL");
+                    System.out.println(menu.get("Izgara Tavuk") + "TL");
                     System.out.println("Afiyet olsun Başka bir Arzunuz");
 
                     Thread.sleep(1000);
@@ -73,14 +72,14 @@ public class MenuRestaurantMap {
                     break;
                 case "3":
 
-                    System.out.println(menu.get("Pizza")+"TL");
+                    System.out.println(menu.get("Pizza") + "TL");
                     System.out.println("Afiyet olsun Başka bir Arzunuz");
                     Thread.sleep(1000);
                     menu();
 
                     break;
                 case "4":
-                    System.out.println(menu.get("Makarna")+"TL");
+                    System.out.println(menu.get("Makarna") + "TL");
                     System.out.println("Afiyet olsun Başka bir Arzunuz");
                     Thread.sleep(1000);
                     menu();
@@ -104,7 +103,6 @@ public class MenuRestaurantMap {
 
         }
     }
-
 
 
 }
