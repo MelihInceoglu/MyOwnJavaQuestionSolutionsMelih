@@ -55,7 +55,7 @@ public class Manav_Maps {
             char secim=scan.next().toUpperCase().charAt(0);
             if (secim=='Q'){
                 System.out.println("ÖDENECEK TUTAR= "+ tutar);
-                System.out.println("******GüLE GÜLE******");
+                System.out.println("****** BETTUL BAKKALA GEDİĞİNİZ İÇİN TEŞEKÜRLER GüLE GÜLE******");
                 System.exit(0);
             }else {
                 System.out.println("HATALI GİRİŞ YAPTINIZ...");
