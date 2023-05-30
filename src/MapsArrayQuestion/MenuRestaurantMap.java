@@ -37,7 +37,7 @@ public class MenuRestaurantMap {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("\t*************MENU********************\n" +
+        System.out.println("\t*************MELIH RESTAURANT********************\n" +
                 "\t\t1. Çorba \n" +
                 "\t\t2. Izgara Tavuk \n" +
                 "\t\t3. Pizza \n" +
