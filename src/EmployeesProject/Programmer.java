@@ -28,6 +28,6 @@ public class Programmer extends Working{
         }else {
             System.out.println("The operator you brought is fugitive");
         }
-        System.exit(0);
+
     }
 }

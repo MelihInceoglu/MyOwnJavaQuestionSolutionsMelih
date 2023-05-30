@@ -12,5 +12,6 @@ public class Manager extends Working{
         double managerwage = managerVwage*1.15;
         System.out.println("Your manager salary is increased :" + managerwage);
 
+
     }
 }
